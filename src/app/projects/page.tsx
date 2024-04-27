@@ -26,6 +26,7 @@ const Projects = () => {
                 <div className="absolute top-2 right-2 flex gap-2 opacity-0 transition-opacity group-hover:opacity-100">
                   <Link
                     href={project.github}
+                    target="blank"
                     className="rounded-full bg-[#800020] p-2 shadow"
                   >
                     <FiGithub className="text-white" />
@@ -34,7 +35,7 @@ const Projects = () => {
               </div>
 
               <div className="space-y-3 p-4">
-                <h2 className="text-xl font-semibold">
+                <h2 className="text-xl font-semibold text-[#800020]">
                   {project.project_title}
                 </h2>
                 <p className="text-sm text-gray-600">{project.heading}</p>
@@ -53,12 +54,14 @@ const Projects = () => {
                   <Link
                     className="rounded-xl bg-[#800020] px-4 py-2 text-sm text-white"
                     href={`/projects/${project.id}`}
+                    target="blank"
                   >
                     View Details
                   </Link>
                   <Link
                     className="rounded-xl border border-[#800020] px-4 py-2 text-sm text-[#800020] hover:bg-blue-50"
                     href={project.liveURL}
+                    target="blank"
                   >
                     Web Presence
                   </Link>

@@ -28,7 +28,7 @@ const ContactForm = () => {
             icon: 'success',
             title: 'Thanks for emailing. I will contact you soon.',
             showConfirmButton: false,
-            timer: 1500,
+            timer: 2000,
           };
 
           Swal.fire(alertOptions);
