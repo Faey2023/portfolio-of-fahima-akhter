@@ -2,6 +2,7 @@ import NavBar from '@/components/Shared/navbar/NavBar';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import '@/app/globals.css';
+import MobileNav from '@/components/Shared/navbar/MobileNav';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -33,13 +34,17 @@ export default function RootLayout({
         suppressHydrationWarning
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-       <div className="relative">
-  <div className="fixed top-1/2 right-12 z-[50] transform -translate-y-1/2 md:top-[60%]">
-    <NavBar />
-  </div>
-  {children}
-</div>
+        <div className="relative">
+          <div className="fixed top-[65%] right-12 z-[50] hidden -translate-y-1/2 md:flex">
+            <NavBar />
+          </div>
 
+          <div className="fixed top-4 right-4 z-[50] md:hidden">
+            <MobileNav />
+          </div>
+
+          <div className="relative z-0">{children}</div>
+        </div>
       </body>
     </html>
   );
