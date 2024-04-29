@@ -1,0 +1,170 @@
+[
+  {
+    "id": "1",
+    "project_title": "Medi Sphere",
+    "image": "/medi-sphere.png",
+    "imageScroll": "/medi-sphere-scroll.png",
+    "technologies": [
+      "Axios",
+      "Framer Motion",
+      "Lucide React",
+      "MongoDB",
+      "Mongoose",
+      "Next.js",
+      "NextAuth",
+      "Node.js",
+      "Radix UI",
+      "Redux Toolkit",
+      "ShadCN",
+      "Swiper",
+      "Tailwind CSS",
+      "TypeScript"
+    ],
+    "liveURL": "https://medi-sphere-five.vercel.app",
+    "github": "https://github.com/Faey2023/medi-sphere",
+    "features": [
+      "Browse and search for medicines with detailed information",
+      "Order medicines and upload prescriptions for verification",
+      "Make secure payments for orders",
+      "Track the status of your orders in real-time",
+      "Admin can add and manage medicines with full control over the platform"
+    ],
+    "heading": "A fullstack online medicine ordering platform."
+  },
+  {
+    "id": "2",
+    "project_title": "Cycle Sphere",
+    "image": "/cycle-sphere.png",
+    "imageScroll": "/cycle-sphere-scroll.png",
+    "technologies": [
+      "Ant Design (AntD)",
+      "Axios",
+      "Date-fns",
+      "Firebase",
+      "Lucide React",
+      "Radix UI",
+      "React",
+      "React DOM",
+      "React Redux",
+      "React Router",
+      "React Toastify",
+      "Redux Toolkit",
+      "Sonner",
+      "Swiper",
+      "Tailwind CSS",
+      "Tailwind Merge",
+      "TypeScript",
+      "Vaul",
+      "Vite"
+    ],
+    "liveURL": "https://cycle-sphere.vercel.app",
+    "github": "https://github.com/Faey2023/cycle-sphere",
+    "features": [
+      "Explore a wide range of cycles with detailed specifications",
+      "Place orders for cycle seamlessly",
+      "Secure online payments for hassle-free purchases",
+      "Track your cycle order status from dispatch to delivery",
+      "Admin can manage cycle listings, inventory, and orders"
+    ],
+    "heading": "A fullstack cycle store"
+  },
+  {
+    "id": "3",
+    "project_title": "Rentify",
+    "image": "https://i.ibb.co/LZ4HtYm/Rentify.png",
+    "imageScroll": "https://i.ibb.co/4sQDyyN/Rentify-Fu.png",
+    "technologies": [
+      "Axios",
+      "DaisyUI",
+      "ESLint",
+      "Firebase",
+      "Lottie React",
+      "Match Sorter",
+      "React",
+      "React Collapsible",
+      "React CountUp",
+      "React DOM",
+      "React Form Stepper",
+      "React Headroom",
+      "React Helmet",
+      "React Hook Form",
+      "React Hot Toast",
+      "React Icons",
+      "React Query (TanStack)",
+      "React Router DOM",
+      "Socket.IO Client",
+      "Stripe (React and JS)",
+      "SweetAlert",
+      "Swiper",
+      "Tailwind CSS",
+      "Timeago.js",
+      "Use Count Up",
+      "Vite"
+    ],
+    "liveURL": "https://rentify-70183.web.app/",
+    "github": "https://github.com/Anirat04/Rentify-client",
+    "features": [
+      "View and add property listings",
+      "Save desired properties for future reference",
+      "Role-based user management (user, owner, admin)",
+      "Registered owners gain access to special features",
+      "Admin has full authority for website management"
+    ],
+    "heading": "A fullstack real estate website."
+  },
+  {
+    "id": "4",
+    "project_title": "Learn Sphere",
+    "image": "https://i.ibb.co/QbrKtp4/Learn-Sphere.png",
+    "imageScroll": "https://i.ibb.co/ZRr62yt/Learn-Sphere.png",
+    "technologies": [
+      "AOS (Animate On Scroll)",
+      "Axios",
+      "DaisyUI",
+      "ESLint",
+      "Firebase",
+      "Framer Motion",
+      "Lottie React",
+      "Match Sorter",
+      "React",
+      "React CountUp",
+      "React DOM",
+      "React Dropzone",
+      "React Fast Marquee",
+      "React Hook Form",
+      "React Hot Toast",
+      "React Icons",
+      "React Query (TanStack)",
+      "React Router DOM",
+      "SweetAlert2",
+      "Swiper",
+      "Tailwind CSS",
+      "Vite"
+    ],
+    "liveURL": "https://learn-sphere.web.app/",
+    "github": "https://github.com/Faey2023/learn-sphere-client",
+    "features": [
+      " Registration enables roles - Student, Teacher, and Admin.",
+      "Approved teachers customize classes, add content, and manage enrolled students.",
+      "Students log in, explore classes, and enrol in courses of interest."
+    ],
+    "heading": "A fullstack learning website."
+  },
+  {
+    "id": "5",
+    "project_title": "Food Exchange Bridge",
+    "image": "https://i.ibb.co/NmmKdyc/FEB-Home.png",
+    "imageScroll": "https://i.ibb.co/d2Y9RJK/FEB-Home.png",
+    "technologies": [
+      "React.js, React Router, Node.js, MongoDB, Tailwind CSS, Firebase, Axios"
+    ],
+    "liveURL": "https://food-exchange-bridge.web.app",
+    "github": "https://github.com/Faey2023/food-exchange-bridge-client",
+    "features": [
+      "Donors can view requests for their surplus food donations.",
+      "Receivers can submit requests for specific food items from donors.",
+      "Dynamic platform updates to reflect the current status of available food items."
+    ],
+    "heading": "A fullstack food surplus website."
+  }
+]
