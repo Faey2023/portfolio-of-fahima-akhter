@@ -20,6 +20,14 @@
       "Tailwind CSS",
       "TypeScript"
     ],
+    "coreTechnologies": [
+      "Next.js",
+      "Node.js",
+      "MongoDB",
+      "Mongoose",
+      "Redux Toolkit",
+      "NextAuth"
+    ],
     "liveURL": "https://medi-sphere-five.vercel.app",
     "github": "https://github.com/Faey2023/medi-sphere",
     "features": [
@@ -55,6 +63,14 @@
       "Tailwind Merge",
       "TypeScript",
       "Vaul",
+      "Vite"
+    ],
+    "coreTechnologies": [
+      "React",
+      "Redux Toolkit",
+      "React Router",
+      "Firebase",
+      "TypeScript",
       "Vite"
     ],
     "liveURL": "https://cycle-sphere.vercel.app",
@@ -101,6 +117,14 @@
       "Use Count Up",
       "Vite"
     ],
+    "coreTechnologies": [
+      "React",
+      "React Router DOM",
+      "Firebase",
+      "React Query (TanStack)",
+      "Tailwind CSS",
+      "Vite"
+    ],
     "liveURL": "https://rentify-70183.web.app/",
     "github": "https://github.com/Anirat04/Rentify-client",
     "features": [
@@ -141,6 +165,14 @@
       "Tailwind CSS",
       "Vite"
     ],
+    "coreTechnologies": [
+      "React",
+      "React Router DOM",
+      "React Query (TanStack)",
+      "Tailwind CSS",
+      "Firebase",
+      "Vite"
+    ],
     "liveURL": "https://learn-sphere.web.app/",
     "github": "https://github.com/Faey2023/learn-sphere-client",
     "features": [
@@ -149,22 +181,5 @@
       "Students log in, explore classes, and enrol in courses of interest."
     ],
     "heading": "A fullstack learning website."
-  },
-  {
-    "id": "5",
-    "project_title": "Food Exchange Bridge",
-    "image": "https://i.ibb.co/NmmKdyc/FEB-Home.png",
-    "imageScroll": "https://i.ibb.co/d2Y9RJK/FEB-Home.png",
-    "technologies": [
-      "React.js, React Router, Node.js, MongoDB, Tailwind CSS, Firebase, Axios"
-    ],
-    "liveURL": "https://food-exchange-bridge.web.app",
-    "github": "https://github.com/Faey2023/food-exchange-bridge-client",
-    "features": [
-      "Donors can view requests for their surplus food donations.",
-      "Receivers can submit requests for specific food items from donors.",
-      "Dynamic platform updates to reflect the current status of available food items."
-    ],
-    "heading": "A fullstack food surplus website."
   }
 ]

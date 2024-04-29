@@ -33,12 +33,13 @@ export default function RootLayout({
         suppressHydrationWarning
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="relative">
-          <div className="absolute md:top-1/2 md:right-12 md:bottom-0 md:-translate-y-1/2">
-            <NavBar />
-          </div>
-          {children}
-        </div>
+       <div className="relative">
+  <div className="fixed top-1/2 right-12 z-[50] transform -translate-y-1/2 md:top-[60%]">
+    <NavBar />
+  </div>
+  {children}
+</div>
+
       </body>
     </html>
   );

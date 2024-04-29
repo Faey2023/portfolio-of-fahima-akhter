@@ -36,7 +36,7 @@ const NavBar = () => {
               <li className="group relative" key={label}>
                 <Link href={href}>
                   <div className="flex h-10 w-10 items-center rounded-[50px] font-semibold uppercase opacity-0 transition-all duration-300 ease-in-out group-hover:w-32 group-hover:bg-[#800020] group-hover:text-white group-hover:opacity-100">
-                    <p className="ml-3">{label}</p>
+                    <p className="pl-3.5">{label}</p>
                   </div>
 
                   <div
