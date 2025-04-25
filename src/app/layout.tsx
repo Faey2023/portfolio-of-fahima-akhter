@@ -34,7 +34,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="relative">
-          <div className="absolute md:top-1/2 md:right-11 md:bottom-0 md:-translate-y-1/2">
+          <div className="absolute md:top-1/2 md:right-12 md:bottom-0 md:-translate-y-1/2">
             <NavBar />
           </div>
           {children}
