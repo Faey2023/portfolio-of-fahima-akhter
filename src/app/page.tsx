@@ -2,10 +2,11 @@ import Link from 'next/link';
 import { FaArrowRight } from 'react-icons/fa';
 import Image from 'next/image';
 import avatar from '../../public/avatar.png';
+import PageWrapper from '@/components/Shared/designs/PageWrapper';
 
 const Home = () => {
   return (
-    <>
+    <PageWrapper>
       <div className="flex flex-col items-center justify-center md:m-10 md:flex-row md:gap-10">
         <div
           style={{
@@ -41,7 +42,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
-    </>
+    </PageWrapper>
   );
 };
 

@@ -3,6 +3,7 @@
 import { FaDownload } from 'react-icons/fa';
 import Heading from '@/components/Shared/designs/Heading';
 import Link from 'next/link';
+import PageWrapper from '@/components/Shared/designs/PageWrapper';
 
 const About = () => {
   const handleResumeClick = () => {
@@ -21,6 +22,7 @@ const About = () => {
   };
 
   return (
+    <PageWrapper>
     <div className="mx-auto max-w-6xl p-10 md:p-0">
       <Heading heading={'About'} small={'me'} title={'Resume'} />
       {/* info div */}
@@ -127,7 +129,7 @@ const About = () => {
           <FaDownload className="text-white" />
         </span>
       </button>
-    </div>
+    </div></PageWrapper>
   );
 };
 

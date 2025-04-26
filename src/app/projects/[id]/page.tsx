@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Heading from '@/components/Shared/designs/Heading';
 import projectData from '@/data/project.json';
 import React from 'react';
+import PageWrapper from '@/components/Shared/designs/PageWrapper';
 
 export async function generateMetadata({
   params,
@@ -39,6 +40,7 @@ const ProjectDetails = async ({
   } = project;
 
   return (
+    <PageWrapper>
     <div className="mx-auto max-w-6xl p-10 md:mb-10 md:p-0">
       <Heading heading={'The'} small={'Project'} title={'details'} />
       <div className="flex items-center gap-10 text-[#666666]">
@@ -114,7 +116,7 @@ const ProjectDetails = async ({
           )}
         </div>
       </div>
-    </div>
+    </div></PageWrapper>
   );
 };
 

@@ -6,9 +6,11 @@ import { BsMedium } from 'react-icons/bs';
 import Heading from '@/components/Shared/designs/Heading';
 import ContactForm from '@/components/contact/ContactForm';
 import Link from 'next/link';
+import PageWrapper from '@/components/Shared/designs/PageWrapper';
 
 const Contact = () => {
   return (
+    <PageWrapper>
     <div className="mx-auto max-w-6xl p-5 md:p-0">
       <Heading heading={'get in '} small={'touch'} title={'contact'} />
       <div className="flex flex-col gap-5 md:flex-row">
@@ -67,7 +69,7 @@ const Contact = () => {
         </div>
         <ContactForm />
       </div>
-    </div>
+    </div></PageWrapper>
   );
 };
 

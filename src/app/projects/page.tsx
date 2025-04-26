@@ -4,9 +4,11 @@ import Link from 'next/link';
 import Image from 'next/image';
 import projectData from '@/data/project.json';
 import { FiGithub } from 'react-icons/fi';
+import PageWrapper from '@/components/Shared/designs/PageWrapper';
 
 const Projects = () => {
   return (
+    <PageWrapper>
     <div className="mx-auto max-w-6xl">
       <Heading heading={'My'} small={'Projects'} title={'works'} />
       <div className="mx-auto mb-5 grid max-w-6xl grid-cols-1 gap-5 px-3 md:grid-cols-2 lg:grid-cols-3 lg:px-0">
@@ -71,7 +73,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
-    </div>
+    </div></PageWrapper>
   );
 };
 

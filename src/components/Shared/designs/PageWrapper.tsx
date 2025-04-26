@@ -14,10 +14,10 @@ export default function PageWrapper({
     <AnimatePresence mode="wait">
       <motion.div
         key={pathname}
-        initial={{ x: '100%', opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        exit={{ x: '-100%', opacity: 0 }}
-        transition={{ duration: 0.4, ease: 'easeInOut' }}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -20 }}
+        transition={{ duration: 0.3 }}
       >
         {children}
       </motion.div>

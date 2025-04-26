@@ -1,6 +1,7 @@
 'use client';
 
 import Heading from '@/components/Shared/designs/Heading';
+import PageWrapper from '@/components/Shared/designs/PageWrapper';
 import { motion } from 'framer-motion';
 import {
   SiCss3,
@@ -42,6 +43,7 @@ const skills = [
 
 const Skills = () => {
   return (
+    <PageWrapper>
     <div className="mx-auto max-w-6xl pb-10">
       <Heading heading={'My'} small={'Skills'} title={'expertise'} />
       <motion.div
@@ -91,7 +93,7 @@ const Skills = () => {
           </motion.div>
         ))}
       </motion.div>
-    </div>
+    </div></PageWrapper>
   );
 };
 
