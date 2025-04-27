@@ -1,8 +1,25 @@
+'use client';
+
 import { FaDownload } from 'react-icons/fa';
 import Heading from '@/components/Shared/designs/Heading';
 import Link from 'next/link';
 
 const About = () => {
+  const handleResumeClick = () => {
+    window.open(
+      'https://drive.google.com/file/d/1D6XyXnui35UEbJf5RYBspPoJ4wH8y6Mt/view',
+      '_blank'
+    );
+
+    const link = document.createElement('a');
+    link.href =
+      'https://drive.google.com/u/0/uc?id=1D6XyXnui35UEbJf5RYBspPoJ4wH8y6Mt&export=download';
+    link.download = 'Resume-of-Fahima.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="mx-auto max-w-6xl p-10 md:p-0">
       <Heading heading={'About'} small={'me'} title={'Resume'} />
@@ -101,18 +118,15 @@ const About = () => {
           </div>
         </div>
       </div>
-      {/*  */}
-      <Link
-        target="blank"
-        href="https://docs.google.com/document/d/1onRuHtS2L5d4MszIeWUbP0pruhCLaJjwZ4DvvXpk09o/edit?usp=sharing"
+      <button
+        onClick={handleResumeClick}
+        className="group relative box-border h-12 w-48 cursor-pointer rounded-lg border-2 border-[#800020] bg-transparent text-xl text-[#666666]"
       >
-        <button className="group relative m-5 box-border h-12 w-48 cursor-pointer rounded-lg border-2 border-[#800020] bg-transparent text-xl text-[#666666]">
-          <span className="pr-9">Resume</span>
-          <span className="absolute top-0 right-0 flex h-full w-10 items-center justify-center bg-[#800020] px-1 duration-300 group-hover:w-full group-hover:bg-[#800020] group-hover:duration-300">
-            <FaDownload className="text-white" />
-          </span>
-        </button>
-      </Link>
+        <span className="pr-9">Resume</span>
+        <span className="absolute top-0 right-0 flex h-full w-10 items-center justify-center bg-[#800020] px-1 duration-300 group-hover:w-full group-hover:bg-[#800020] group-hover:duration-300">
+          <FaDownload className="text-white" />
+        </span>
+      </button>
     </div>
   );
 };
