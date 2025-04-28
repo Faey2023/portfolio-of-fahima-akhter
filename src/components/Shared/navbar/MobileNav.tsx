@@ -21,8 +21,8 @@ const MobileNav = () => {
   const navItems = [
     { href: '/', label: 'Home', icon: <IoHome /> },
     { href: '/about', label: 'About', icon: <IoPerson /> },
-    { href: '/projects', label: 'Projects', icon: <IoBriefcase /> },
-    { href: '/skills', label: 'Expertise', icon: <IoCodeSlash /> },
+    { href: '/projects', label: 'Projects', icon: <IoCodeSlash /> },
+    { href: '/skills', label: 'Expertise', icon: <IoBriefcase /> },
     { href: '/contact', label: 'Contact', icon: <IoMailSharp /> },
   ];
 
