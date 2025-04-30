@@ -23,15 +23,15 @@ const Home = () => {
         {/* text div */}
         <div className="mx-auto flex flex-col justify-center p-10 md:w-2/4 md:p-0">
           <h1 className="relative text-3xl font-bold text-[#800030] uppercase before:absolute before:top-9 before:left-0 before:hidden before:h-1 before:w-10 before:rounded-2xl before:bg-[#800020] before:content-[''] md:pl-16 md:text-[52px] md:before:block">
-            I&#39;m Fahima
+            I am Fahima
             <span className="block text-[#666666] md:my-5">Web developer</span>
           </h1>
           <p className="text leading-9 text-[#666666] italic md:text-lg">
-            I am a Frontend / MERN Stack Developer based in Bangladesh.
-            Currently, I&#39;m seeking opportunities. Passionate about crafting
-            engaging user experiences. Let&#39;s collaborate on something great!
+            A Frontend Developer based in Bangladesh. Currently, I&#39;m seeking
+            opportunities. Passionate about crafting engaging user experiences.
+            Let&#39;s collaborate on something great!
           </p>
-          <Link href="/about" className="mt-5 md:pl-5">
+          <Link href="/about" className="mt-5">
             <button className="group relative box-border h-12 w-48 cursor-pointer rounded-lg border-2 border-[#800020] bg-transparent text-xl text-[#666666]">
               <span className="pr-9"> About Me</span>
               <span className="absolute top-0 right-0 flex h-full w-10 items-center justify-center bg-[#800020] px-1 duration-300 group-hover:w-full group-hover:bg-[#800020] group-hover:duration-300">
