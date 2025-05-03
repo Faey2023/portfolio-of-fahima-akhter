@@ -32,7 +32,7 @@ const ProjectDetails = async ({
   const {
     project_title,
     image,
-    technologies,
+    coreTechnologies,
     liveURL,
     github,
     features,
@@ -60,7 +60,7 @@ const ProjectDetails = async ({
                   <FaCode className="text-2xl font-bold" />
                   <p>
                     <span className="font-bold">Technologies :</span>{' '}
-                    {technologies}
+                    {coreTechnologies.join(', ')}
                   </p>
                 </div>
                 <div className="flex gap-2">

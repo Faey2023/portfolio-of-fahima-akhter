@@ -11,24 +11,26 @@ const Projects = () => {
     <PageWrapper>
       <div className="mx-auto max-w-6xl">
         <Heading heading={'My'} small={'Projects'} title={'works'} />
-        <div className="mx-auto mb-5 grid max-w-6xl grid-cols-1 gap-5 px-3 md:grid-cols-2 lg:grid-cols-3 lg:px-0">
+        <div className="mx-auto mb-12 grid max-w-6xl grid-cols-1 gap-5 px-3 md:grid-cols-2 lg:grid-cols-3 lg:px-0">
           {projectData.map((project: IProject) => (
             <div key={project.id}>
               <div className="group w-full overflow-hidden rounded-2xl bg-white shadow-lg transition">
-                <div className="relative">
+                <div className="group relative h-56 w-full overflow-hidden rounded-md">
                   {project.image && (
                     <Image
                       src={project.image}
                       alt="Cycle"
-                      width={1000}
-                      height={224}
-                      className="h-56 w-full"
+                      fill
+                      className="object-cover transition duration-300"
                     />
                   )}
-                  <div className="absolute top-2 right-2 flex gap-2 opacity-0 transition-opacity group-hover:opacity-100">
+
+                  <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#800020]/70 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+
+                  <div className="absolute top-2 right-2 z-10 flex gap-2 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                     <Link
                       href={project.github}
-                      target="blank"
+                      target="_blank"
                       className="rounded-full bg-[#800020] p-2 shadow"
                     >
                       <FiGithub className="text-white" />
@@ -56,7 +58,7 @@ const Projects = () => {
                     <Link
                       className="rounded-xl bg-[#800020] px-4 py-2 text-sm text-white"
                       href={`/projects/${project.id}`}
-                      target="blank"
+                      // target="blank"
                     >
                       View Details
                     </Link>

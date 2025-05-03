@@ -26,7 +26,7 @@ const About = () => {
       <div className="mx-auto max-w-6xl p-10 md:p-0">
         <Heading heading={'About'} small={'me'} title={'Resume'} />
         {/* info div */}
-        <div className="flex flex-col justify-between md:flex-row">
+        <div className="flex flex-col justify-between pb-10 md:flex-row md:pb-0">
           <div>
             <h3 className="mb-5 hidden text-2xl font-bold text-gray-700 uppercase md:flex">
               Personal Infos
