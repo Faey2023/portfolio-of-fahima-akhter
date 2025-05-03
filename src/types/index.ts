@@ -9,4 +9,5 @@ export interface IProject {
   github: string;
   features: string[];
   heading: string;
+  description: string;
 }

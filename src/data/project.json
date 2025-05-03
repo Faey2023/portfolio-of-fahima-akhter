@@ -37,7 +37,8 @@
       "Track the status of your orders in real-time",
       "Admin can add and manage medicines with full control over the platform"
     ],
-    "heading": "A fullstack online medicine ordering platform."
+    "heading": "A fullstack online medicine ordering platform.",
+    "description": "Medi Sphere is an online medicine ordering platform where users can browse, search, and purchase medicines easily. It features secure user authentication, a user-friendly interface, and a responsive design for seamless access across devices."
   },
   {
     "id": "2",
@@ -82,7 +83,8 @@
       "Track your cycle order status from dispatch to delivery",
       "Admin can manage cycle listings, inventory, and orders"
     ],
-    "heading": "A fullstack cycle store"
+    "heading": "A fullstack cycle store",
+    "description": "Cycle Sphere is a modern bicycle marketplace where users can explore, list, and buy cycles. The platform offers clean UI, dynamic filtering, and a smooth user experience tailored for cycling enthusiasts."
   },
   {
     "id": "3",
@@ -134,7 +136,8 @@
       "Registered owners gain access to special features",
       "Admin has full authority for website management"
     ],
-    "heading": "A fullstack real estate website."
+    "heading": "A fullstack real estate website.",
+    "description": "This repository contains the code for a real estate web application developed as a demo project using the MERN stack. The project is currently in progress and showcases the foundational features of a real estate platform."
   },
   {
     "id": "4",
@@ -180,6 +183,7 @@
       "Approved teachers customize classes, add content, and manage enrolled students.",
       "Students log in, explore classes, and enrol in courses of interest."
     ],
-    "heading": "A fullstack learning website."
+    "heading": "A fullstack learning website.",
+    "description": "Discover Learn Sphere, a robust online education platform designed for immersive learning experiences. From dynamic course content to user-friendly navigation, this project showcases my commitment to creating a seamless and engaging learning environment."
   }
 ]
