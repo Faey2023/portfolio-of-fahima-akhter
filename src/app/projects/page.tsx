@@ -14,7 +14,7 @@ const Projects = () => {
         <div className="mx-auto mb-12 grid max-w-6xl grid-cols-1 gap-5 px-3 md:grid-cols-2 lg:grid-cols-3 lg:px-0">
           {projectData.map((project: IProject) => (
             <div key={project.id}>
-              <div className="group h-[525px] w-full overflow-hidden rounded-2xl bg-white shadow-lg transition">
+              <div className="group h-[575px] w-full overflow-hidden rounded-2xl bg-white shadow-lg transition">
                 <div className="group relative h-56 w-full overflow-hidden rounded-md">
                   {project.image && (
                     <Image
