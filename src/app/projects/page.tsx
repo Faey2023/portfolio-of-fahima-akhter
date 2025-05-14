@@ -1,3 +1,5 @@
+'use client';
+
 import Heading from '@/components/Shared/designs/Heading';
 import { IProject } from '@/types';
 import Link from 'next/link';
@@ -5,8 +7,36 @@ import Image from 'next/image';
 import projectData from '@/data/project.json';
 import { FiGithub } from 'react-icons/fi';
 import PageWrapper from '@/components/Shared/designs/PageWrapper';
+import { FaRegShareSquare } from 'react-icons/fa';
+import Swal from 'sweetalert2';
 
 const Projects = () => {
+  const handleShare = async ({
+    title,
+    text,
+    url,
+  }: {
+    title: string;
+    text: string;
+    url: string;
+  }) => {
+    if (navigator.share) {
+      try {
+        await navigator.share({ title, text, url });
+      } catch (err) {
+        console.error('Share failed:', err);
+      }
+    } else {
+      try {
+        await navigator.clipboard.writeText(url);
+      } catch (err) {
+        Swal.fire('Failed to copy link.');
+
+        console.log(err);
+      }
+    }
+  };
+
   return (
     <PageWrapper>
       <div className="mx-auto max-w-6xl">
@@ -35,6 +65,18 @@ const Projects = () => {
                     >
                       <FiGithub className="text-white" />
                     </Link>
+                    <button
+                      className="cursor-pointer rounded-full bg-[#800020] p-2 shadow"
+                      onClick={() =>
+                        handleShare({
+                          title: project.project_title,
+                          text: `Check out my project: ${project.project_title}`,
+                          url: `{projects/${project.id}`,
+                        })
+                      }
+                    >
+                      <FaRegShareSquare className="text-white" />
+                    </button>
                   </div>
                 </div>
 
@@ -60,7 +102,7 @@ const Projects = () => {
                     <Link
                       className="rounded-xl bg-[#800020] px-4 py-2 text-sm text-white"
                       href={`/projects/${project.id}`}
-                      // target="blank"
+                      target="blank"
                     >
                       View Details
                     </Link>

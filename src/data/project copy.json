@@ -39,8 +39,8 @@
     ],
     "heading": "A fullstack online medicine ordering platform.",
     "description": "Medi Sphere is an online medicine ordering platform where users can browse, search, and purchase medicines easily. It features secure user authentication, a user-friendly interface, and a responsive design for seamless access across devices.",
-    "challenges": "Implementing secure authentication with NextAuth and managing different user roles (user, admin) was complex. Ensuring the prescription upload feature met usability standards while maintaining data privacy required careful handling. Real-time order tracking and status updates demanded seamless API integration and performance optimization.",
-    "plans": "Integrate AI-based prescription recognition for faster order processing. Add multi-language support and location-based medicine availability. Improve accessibility for visually impaired users."
+    "challenges": "",
+    "plans": ""
   },
   {
     "id": "2",
@@ -86,9 +86,7 @@
       "Admin can manage cycle listings, inventory, and orders"
     ],
     "heading": "A fullstack cycle store",
-    "description": "Cycle Sphere is a modern bicycle marketplace where users can explore, list, and buy cycles. The platform offers clean UI, dynamic filtering, and a smooth user experience tailored for cycling enthusiasts.",
-    "challenges": "Managing real-time inventory and synchronizing it across admin and user views was technically challenging. Ensuring Firebase authentication integrated smoothly with the Redux-managed app state. UI responsiveness and image optimization for high-performance loading on slower connections.",
-    "plans": "Add user reviews and rating features for cycles. Implement advanced filtering (by brand, price range, type) with persistent state. Expand to support vendor-based listings and marketplace functionality."
+    "description": "Cycle Sphere is a modern bicycle marketplace where users can explore, list, and buy cycles. The platform offers clean UI, dynamic filtering, and a smooth user experience tailored for cycling enthusiasts."
   },
   {
     "id": "3",
@@ -141,9 +139,7 @@
       "Admin has full authority for website management"
     ],
     "heading": "A fullstack real estate website.",
-    "description": "A real estate web application built with the MERN stack, showcasing key features such as property listings, user interactions, and dynamic content. This ongoing project demonstrates my ability to develop modern, full-stack web applications with a focus on functionality and clean design.",
-    "challenges": "Handling multiple user roles (admin, owner, user) while maintaining clean and scalable logic was challenging. Implementing real-time updates using Socket.IO for notifications required backend coordination. Ensuring smooth Stripe integration for property payments took time due to API limitations.",
-    "plans": "Introduce a recommendation system based on user preferences and past activity. Add map-based property exploration with geolocation features. Implement a property verification process for added trust."
+    "description": "A real estate web application built with the MERN stack, showcasing key features such as property listings, user interactions, and dynamic content. This ongoing project demonstrates my ability to develop modern, full-stack web applications with a focus on functionality and clean design."
   },
   {
     "id": "4",
@@ -190,8 +186,6 @@
       "Students log in, explore classes, and enrol in courses of interest."
     ],
     "heading": "A fullstack learning website.",
-    "description": "Discover Learn Sphere, a robust online education platform designed for immersive learning experiences. From dynamic course content to user-friendly navigation, this project showcases my commitment to creating a seamless and engaging learning environment.",
-    "challenges": "Designing role-specific dashboards and conditional features for Admin, Teacher, and Student added architectural complexity. Uploading large files (like course materials) while maintaining speed and reliability was a performance bottleneck. Managing dynamic content with animations (AOS, Framer Motion) without impacting performance was tricky.",
-    "plans": "Add quizzes and certification systems for completed courses. Introduce a messaging system for students and teachers. Develop a mobile-first version with PWA features for offline access."
+    "description": "Discover Learn Sphere, a robust online education platform designed for immersive learning experiences. From dynamic course content to user-friendly navigation, this project showcases my commitment to creating a seamless and engaging learning environment."
   }
 ]
